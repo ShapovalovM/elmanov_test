@@ -1,0 +1,269 @@
+@import "http://fonts.fontstorage.com/import/cherryswash.css";
+@import url('https://www.fontify.me/wf/6d56f60e660f9ba562ad18dd0462a985');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: font94825;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+/*шапка сайта начало*/
+
+.menu {
+    z-index: 9000;
+    height: 87px;
+    background-color: rgba(85, 173, 183, 0.84);
+    position: fixed;
+    width: 100%;
+}
+
+.menu_icon {
+    text-decoration: none;
+    font-size: 40px;
+    padding: 18px 0 0 49px;
+    float: left;
+    color: #ffffff;
+    font-family: 'Cherry Swash';
+}
+
+
+/*
+nav {
+    float: right;
+}
+*/
+
+nav {
+    float: right;
+}
+
+.menu_list {
+    list-style: none;
+}
+
+.menu_list li {
+    font-size: 18px;
+    margin: 0 0 0 18px;
+    color: #dce3e4;
+    display: inline;
+    text-transform: uppercase;
+}
+
+.menu_list li:after {
+    padding-left: 23px;
+    content: "/";
+}
+
+.menu_list li:last-child:after {
+    padding-left: 0;
+    content: "";
+}
+
+.menu_list a {
+    text-decoration: none;
+    color: #dce3e4;
+}
+
+ul.menu_list {
+    padding: 37px 13px 0 0;
+}
+
+.menu_list a:hover {
+    color: #ffffff;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+/*Шапка сайта конец*/
+
+
+/*Начало слайдера*/
+
+.slider {
+    background: url("../img/img_1.png") no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 562px;
+    margin: 0 auto;
+}
+
+.slider_h1 {
+    font-size: 44px;
+    font-family: font94825;
+    letter-spacing: 4px;
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.318;
+    text-align: center;
+    padding-top: 207.033px;
+    width: 561px;
+    z-index: 4;
+    margin: 0 auto;
+}
+
+.slider_a:hover {
+    background-color: rgba(255, 255, 255, 0.40);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.slider_a {
+    font-size: 30px;
+    color: rgb(228, 228, 228);
+    line-height: 1.933;
+    text-align: center;
+    padding-top: 420.828px;
+    margin: auto;
+    z-index: 6;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.084);
+    border: solid rgb(175, 177, 180);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: auto;
+    height: 50px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 3px 50px;
+}
+
+.Rectangle_1 {
+    /*    background-color: rgb(255, 255, 255);*/
+    height: 445px;
+    text-align: center;
+}
+
+.slider_p {
+    text-align: center;
+    padding: 29px;
+}
+
+.text_1 {
+    padding: 89px 225px 43px 225px;
+    font-size: 30px;
+    color: rgb(76, 80, 93);
+    text-align: center;
+}
+
+.text_2 {
+    padding: 0 110px;
+    font-size: 14px;
+    color: rgb(76, 80, 93);
+    text-align: center;
+}
+
+.icon {
+    color: rgb(94, 182, 196);
+    font-size: 50px;
+    padding: 76px;
+}
+
+.icon i {
+    margin: 0 63px;
+}
+
+.Rectangle_2 {
+    height: 468px;
+    background-color: #00d089;
+}
+
+.dhavan_img {
+    margin-top: 98px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.dhavan_text {
+    position: absolute;
+    top: 100px;
+    left: 640px;
+    z-index: 1000;
+    font: bold;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: rgb(228, 228, 228);
+    line-height: 2.231;
+}
+
+.relative {
+    position: relative;
+}
+
+.dhavan_text2 {
+    position: absolute;
+    top: 76px;
+    left: 686px;
+    z-index: 1000;
+    font-size: 78px;
+    color: rgba(255, 255, 255, 0.2);
+    text-transform: uppercase;
+    line-height: 0.744;
+    text-align: center;
+    transform: matrix( -4.35202320282641, 0, 0, -4.33813744317516, 0, 0);
+    -moz-transform: matrix( -4.35202320282641, 0, 0, -4.33813744317516, 0, 0);
+    -webkit-transform: matrix( -4.35202320282641, 0, 0, -4.33813744317516, 0, 0);
+    -ms-transform: matrix( -4.35202320282641, 0, 0, -4.33813744317516, 0, 0);
+}
+
+#map {
+    background-image: url(../img/Layer-4.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 520px;
+}
+
+footer {
+    background-color: #00d089;
+    color: white;
+}
+
+.round_form {
+    -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 430px;
+    height: 430px;
+    top: 50px;
+    left: 50%;
+    margin-left: -215px;
+    text-align: center;
+}
+
+.round_form p {
+    margin-top: 20px;
+}
+
+.dhavan_text3 {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+/*    width: 901px;*/
+/*    height: 81px;*/
+    z-index: 41;
+    float: left;
+    padding: 63px 45px;
+}
+
+.text_form {
+    padding-top: 114px;
+}
+
+.bullon {
+    padding: 20px;
+}
